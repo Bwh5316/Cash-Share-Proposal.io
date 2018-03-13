@@ -6,4 +6,4 @@ SOURCE CODE:
 
 
 PROJECT PROPOSAL:  
- To find my project proposal, navigate to the "Wiki" tab within the Cash-Share-Proposal.io repository and then select "Project Proposal" from the "Pages" menu to the right of the webpage.
+ To find my project proposal, click on the index.md within the Cash-Share-Proposal.io repository.
