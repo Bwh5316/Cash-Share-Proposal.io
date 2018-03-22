@@ -1,21 +1,25 @@
 # Cash Share
-IST 411 (Section 001) Project Proposal / Final Project
+Project Proposal
 
 Description
 
 My proposed idea for this project is to create a money-sharing application, as suggested by one of the examples presented in class on February 20th. I also briefly mentioned this idea in my daily log that was submitted on February 21st and I will expand upon this idea continuously during the duration of this project. The idea is to create a server-based project that when ran, a user will create an account by entering the following:
-    First Name
-    Last Name
-    Date of Birth (DOB)
-    Gender
-    Username (Created by User)
-    Password (Created by User)
+
+First Name,
+Last Name,
+Date of Birth (DOB),
+Gender,
+Username (Created by User) and 
+Password (Created by User)
+
 After an account has been created, the user will login using only their username and password. Once logged in, the following options will be available for the user to utilize the following:
-    Profile (Edit Cover Photo, Edit Bio, etc.)
-    Send Funds
-    Add Friend
-    Notifications (e.g. Aaron sent you $20.00)
-    Settings (Privacy, Add Bank, Notifications, etc.)
+
+Profile (Edit Cover Photo, Edit Bio, etc.),
+Send Funds,
+Add Friend,
+Notifications (e.g. Aaron sent you $20.00), and 
+Settings (Privacy, Add Bank, Notifications, etc.)
+
 Beyond these operations, I do not know what other options I intend to offer but these are what I am expecting to have but they may be subject to change and be expanded upon over time.
 
 
