@@ -3,7 +3,7 @@ Project Proposal
 
 Description
 
-My proposed idea for this project is to create a money-sharing application, as suggested by one of the examples presented in class on February 20th. The idea is to create a server-based project that when ran, a user will create an account by entering the following:
+My proposed project idea is to create a money-sharing / retrieving application, as suggested by one of the examples presented in class on February 20th. The idea is to allow users to send money electronically to a central storage (server) location, similar to PayPal, where another user may retrieve the funds vs sending money from one bank account to the next. First, users will create an account with the following information:
 
 - First Name
 
@@ -13,72 +13,69 @@ My proposed idea for this project is to create a money-sharing application, as s
 
 - Gender
 
-- Username (Created by User) and Password (Created by User)
+- Username
 
-After an account has been created, the user will login using only their username and password. Once logged in, the following options will be available for the user to utilize the following:
+- Password
 
-- Profile (Edit Cover Photo, Edit Bio, etc.)
+- Email Address
 
-- Send Funds
+After an account has been created, users will login using only their username and password that they created. Once logged in, the following options will be available for selection:
 
-- Add Friend
+- Profile - Edit bio and/or view profile
 
-- Notifications (e.g. Aaron sent you $20.00)
+- Request Funds - Send another user a request for a specified amount
 
-- Settings (Privacy, Add Bank, Notifications, etc.)
+- Send Funds - Send another user money with a specified amount
 
-Beyond these operations, I do not know what other options I intend to offer but these are what I am expecting to have but they may be subject to change and be expanded upon over time.
+- Add Friend - Add a user by their username
+
+- Settings – Edit privacy, notifications, and personal information
+
+- Log Out - Log out of account
+
+Beyond the above selections, I do not know what else I will implement but they are what I am expecting to have. They may also be subject to revisions and be expanded upon over time.
 
 
 
 Design
 
-The design for my project will be something of both simplistic and appealing. I want the design to be friendly enough for many different users to easily grasp and navigate while also presenting a unique design. The dashboard, which will act as the homepage, will come after the login portal. The login portal will show the application’s name as the header and two text fields:
+The design for my project is expected to be simplistic but appealing. I want the design to be user-friendly so many users can easily understand and navigate while also providing users with an appealing and consistent design. The login portal is the initial view any user will see. It will show the project name, Cash Share, as the header and the following text fields:
 
 - Username (enter username)
 
 - Password (enter password)
 
-Next, there will be a dashboard page where the following options will be available for requests and commands:
+The dashboard / homepage will be displayed after a user successfully signs in. This page is where the selections mentioned above (Profile, Add Friend, Settings, etc.) will be available for utilization.
 
-- Profile (Edit Cover Photo, Edit Bio, etc.)
-
-- Send Funds
-
-- Add Friend
-
-- Notifications (e.g. Aaron sent you 0.00)
-
-- Settings (Privacy, Add Bank, Notifications, etc.)
-
-I prefer to use MVC vs Spring MVC as I am more comfortable with MVC. If granted permission, I will be using MVC and not Spring MVC; pending upon approval. For the time being, I will be uploading a Spring MVC project as requested by the proposal as a place-holder; it is also empty as I have not starting working on it proactively yet. Also, I plan on using Java FXML as I am fairly familiar with it and I am sure that I can enhance the appearance and capabilities of my project using the language. I believe Java FXML will help me build a nice structure for my user interface. I believe I will need approval to use this language as well, so this may not be a part of my project if denied by the instructor. In relation, I plan on using Java FX’s Scene Builder as I have used it previously and it hands-on for re-positioning buttons and other objects without having to use hard-code. The technologies I intend to use are as follows:
+Technology-wise, I will use Spring MVC as I am fairly comfortable with it. I would also like to use Java FXML as I am familiar with it and I am sure that I can enhance the appearance and capabilities of my project using the language. I would use Java FX’s Scene Builder to feasibly arrange my views. It is hands-on for repositioning buttons and other objects without having to use hard-code. The problem may be that I cannot integrate FXML with Spring MVC or Spring Boot, but I am doing some research. If not, then I will only be using Spring MVC. The technologies I EXPECT to use are as follows:
 
 - NetBeans IDE
 
 - Scene Builder
 
-These two technologies are able to be fully integrated as I have used them both before. My main concern is that I will be granted permission to use MVC and not Spring MVC as using Spring MVC while trying to integrate a JavaFX FXML project would bring complications to this idea. With Scene Builder, any work / edits made to a Java FXML project can be exported and then imported into NetBeans. When a JavaFX FXML project has been created in NetBeans, I can choose the Open tab to edit the FXML file with the Scene Builder tool or choose Edit to edit the FXML file with the NetBeans FXML editor. Also, if a user right-clicks the node for the FXML file and chooses Open, then NetBeans will automatically locate the latest installed Scene Builder on the current system and the Scene Builder window will appear on top of the NetBeans window. For more details on the integration of NetBeans and Scene Builder, refer to the following link: https://docs.oracle.com/javafx/scenebuilder/1/use_java_ides/sb-with-nb.html
+NetBeans and Scene Builder can be integrated as I have used them both before. My main concern is that using Spring MVC while trying to integrate a JavaFX FXML project would bring complications may not work. With Scene Builder, work made to a Java FXML project can be exported and then imported into NetBeans. For more details on the integration of NetBeans and Scene Builder, refer to the following link: 
+https://docs.oracle.com/javafx/scenebuilder/1/use_java_ides/sb-with-nb.html
 
 
 
 Schedule
 
-My expectations for each checkpoint, while there will be three checkpoints before the completion of the project, are as follows:
+My expectations for each checkpoint, while there will be three checkpoints before completion of the project, are as follows:
 
-Checkpoint 1: Create Login Portal interface (username and password text fields, submit button, etc.) and construct the layout for the dashboard / homepage. This may also include the full functionality of the buttons with redirection of pages but may be subject to be completed by Checkpoint based upon potential complications.
+- Checkpoint 1: Create ‘Login’ portal view (Username and Password text fields, submit button, etc.) and construct the layout for the dashboard / homepage. This may also include some working functionality of the buttons such redirection of pages. This may be subject to be completed by Checkpoint 2 based upon potential complications.
 
-Checkpoint 2: Create and implement a database to withhold the potential account holder's information, create and test sample users with login authentications and storage in the database.
+- Checkpoint 2: Create and implement a database. Store sample user information, create and test sample users with login authentications. Familiarize myself with Map and Reduce and work on creating some usages for sorting and organizing information with such. Ensure that the dashboard / homepage is fully functional.
 
-Checkpoint 3: Ensure that users can create accounts and login effectively (authentication = true), all buttons perform specified actions, give the overall interface a theme (color, consistent fonts, etc.), ensure that each page has its own URL, set up the notifications (e.g alert a account holder that they have been sent funds).
+- Checkpoint 3: Ensure that users can create accounts and login effectively (authentication = true), all buttons perform specified actions, ensure that the all the views a theme (consistent colors, fonts, etc.), ensure that each page has its own URL, set up the notifications -- alert a user that they have been sent funds.
 
-Once I approach the final stages of my proposed project, my final project will look like something like a Venmo or a Cash application (if you are familiar with the two). The design will be of a simpler value but it is too early for me to speculate the major details of the final design.
+Once I approach the final stages of the project, it is expected to look similar to Venmo or PayPal (if you are familiar with both). It is still early so my speculations will be continuously changing and updated.
 
 
 
 Justification
 
-My project can be seen as interesting because is creates a major convenience for many people who wish to send their family and friends money without the hassle of traveling to their local bank, Western Union, etc. This will save time and energy for many users.
+My project’s idea may be interesting as it may create convenience for many people who wish to send their family and/or friends money without the hassle of physical exchange. This will save time and energy for many people.
 
-I don’t think my specific project is necessarily different than any existing applications as there are many money-sharing applications on the market currently, but I plan to differentiate my ideas from the specific components of the current apps on the market. The goal is to make the design, theme, slogan, operations, prompts, and overall project different as possible.
+I don’t think my project is drastically different than other existing platforms as there are already many money-sharing platforms on the market, but I plan to differentiate mine as much as physically possible. The goal is to make the design, the privileges, the prompts, and the overall project as innovative and different as possible.
 
-I feel like the overall complexity of my project will create room for me to learn and better understand many different frameworks and topics of programming. I believe I will become comfortable with using server-based programs, databases, Spring MVC (if I am instructed to use it upon approval), HTML, and I will learn how to focus on human-computer interactions. There is definitely a lot of things I think I will learn and become better / more comfortable with!
+I think the overall complexity of the project is fair. I will create room for me to learn and better understand many different frameworks and topics of programming. I will take some of the topics covered in class and use them. I believe I will become more comfortable with working on server-based programs, databases, Spring MVC, HTML, etc. I will also learn how to focus on human-computer interactions. There is definitely a lot of things to be learned!
