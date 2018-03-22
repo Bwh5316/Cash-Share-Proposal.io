@@ -30,6 +30,7 @@ After an account has been created, the user will login using only their username
 Beyond these operations, I do not know what other options I intend to offer but these are what I am expecting to have but they may be subject to change and be expanded upon over time.
 
 
+
 Design
 
 The design for my project will be something of both simplistic and appealing. I want the design to be friendly enough for many different users to easily grasp and navigate while also presenting a unique design. The dashboard, which will act as the homepage, will come after the login portal. The login portal will show the application’s name as the header and two text fields:
@@ -59,6 +60,7 @@ I prefer to use MVC vs Spring MVC as I am more comfortable with MVC. If granted 
 These two technologies are able to be fully integrated as I have used them both before. My main concern is that I will be granted permission to use MVC and not Spring MVC as using Spring MVC while trying to integrate a JavaFX FXML project would bring complications to this idea. With Scene Builder, any work / edits made to a Java FXML project can be exported and then imported into NetBeans. When a JavaFX FXML project has been created in NetBeans, I can choose the Open tab to edit the FXML file with the Scene Builder tool or choose Edit to edit the FXML file with the NetBeans FXML editor. Also, if a user right-clicks the node for the FXML file and chooses Open, then NetBeans will automatically locate the latest installed Scene Builder on the current system and the Scene Builder window will appear on top of the NetBeans window. For more details on the integration of NetBeans and Scene Builder, refer to the following link: https://docs.oracle.com/javafx/scenebuilder/1/use_java_ides/sb-with-nb.html
 
 
+
 Schedule
 
 My expectations for each checkpoint, while there will be three checkpoints before the completion of the project, are as follows:
@@ -70,6 +72,7 @@ Checkpoint 2: Create and implement a database to withhold the potential account 
 Checkpoint 3: Ensure that users can create accounts and login effectively (authentication = true), all buttons perform specified actions, give the overall interface a theme (color, consistent fonts, etc.), ensure that each page has its own URL, set up the notifications (e.g alert a account holder that they have been sent funds).
 
 Once I approach the final stages of my proposed project, my final project will look like something like a Venmo or a Cash application (if you are familiar with the two). The design will be of a simpler value but it is too early for me to speculate the major details of the final design.
+
 
 
 Justification
