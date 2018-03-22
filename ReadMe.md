@@ -54,6 +54,7 @@ Technology-wise, I will use Spring MVC as I am fairly comfortable with it. I wou
 - Scene Builder
 
 NetBeans and Scene Builder can be integrated as I have used them both before. My main concern is that using Spring MVC while trying to integrate a JavaFX FXML project would bring complications may not work. With Scene Builder, work made to a Java FXML project can be exported and then imported into NetBeans. For more details on the integration of NetBeans and Scene Builder, refer to the following link: 
+
 https://docs.oracle.com/javafx/scenebuilder/1/use_java_ides/sb-with-nb.html
 
 
