@@ -1,4 +1,4 @@
-# Cash-Share-Proposal.io
+# Cash Share
 IST 411 (Section 001) Project Proposal / Final Project
 
 SOURCE CODE:  
