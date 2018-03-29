@@ -47,17 +47,10 @@ The design for my project is expected to be simplistic but appealing. I want the
 
 The dashboard / homepage will be displayed after a user successfully signs in. This page is where the selections mentioned above (Profile, Add Friend, Settings, etc.) will be available for utilization.
 
-Technology-wise, I will use Spring MVC as I am fairly comfortable with it. I would also like to use Java FXML as I am familiar with it and I am sure that I can enhance the appearance and capabilities of my project using the language. I would use Java FX’s Scene Builder to feasibly arrange my views. It is hands-on for repositioning buttons and other objects without having to use hard-code. The problem may be that I cannot integrate FXML with Spring MVC or Spring Boot, but I am doing some research. If not, then I will only be using Spring MVC. The technologies I EXPECT to use are as follows:
+Technology-wise, I will use Spring MVC as I am fairly comfortable with it. I am not too familiar with MySQL but I heard that I could use its database and check when I, for example, submit / add a new user, which is a combination of information. The technologies I EXPECT to use are as follows:
 
 - NetBeans IDE
-
-- Scene Builder
-
-NetBeans and Scene Builder can be integrated as I have used them both before. My main concern is that using Spring MVC while trying to integrate a JavaFX FXML project would bring complications may not work. With Scene Builder, work made to a Java FXML project can be exported and then imported into NetBeans. For more details on the integration of NetBeans and Scene Builder, refer to the following link: 
-
-https://docs.oracle.com/javafx/scenebuilder/1/use_java_ides/sb-with-nb.html
-
-
+- My SQL Workbench
 
 Schedule
 
