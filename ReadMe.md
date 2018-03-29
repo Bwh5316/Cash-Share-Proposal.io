@@ -3,7 +3,7 @@ Project Proposal
 
 Description
 
-My proposed project idea is to create a money-sharing / retrieving application, as suggested by one of the examples presented in class on February 20th. The idea is to allow users to send money electronically to a central storage (server) location, similar to PayPal, where another user may retrieve the funds vs sending money from one bank account to the next. First, users will create an account with the following information:
+My proposed project idea is to create a money-sharing / retrieving application. The idea is to allow users to send money electronically to a central storage (server) location, similar to PayPal, where another user may retrieve the funds vs sending money from one bank account to the next. First, users will create an account with the following information:
 
 - First Name
 
