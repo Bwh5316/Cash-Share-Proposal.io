@@ -58,7 +58,7 @@ My expectations for each checkpoint, while there will be three checkpoints befor
 
 - Checkpoint 1: Create ‘Login’ portal view (Username and Password text fields, submit button, etc.) and construct the layout for the dashboard / homepage. This may also include some working functionality of the buttons such redirection of pages. This may be subject to be completed by Checkpoint 2 based upon potential complications.
 
-- Checkpoint 2: Implement a database. Store sample user information and then test sample users with login authentications. Familiarize myself with Map and Reduce and start working on creating some usages for sorting and organizing information with such. Ensure that the dashboard's buttons are fully functional and redirect the user to the pages.
+- Checkpoint 2: Implement SQLite database. Create a 'User' table for storing sample user information (e.g username, password, etc.) and then test users with login authentications. Ensure that each button on the 'Dashboard' is fully functional and redirects the user to the corresponding page(s). Familiarize myself with Map and Reduce and start working on creating some usages for sorting and organizing information with such.
 
 - Checkpoint 3: Ensure that users can create accounts and login effectively (authentication = true), all buttons perform specified actions, ensure that the all the views a theme (consistent colors, fonts, etc.), ensure that each page has its own URL, set up the notifications -- alert a user that they have been sent funds.
 
