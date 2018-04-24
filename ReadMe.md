@@ -60,7 +60,7 @@ My expectations for each checkpoint, while there will be three checkpoints befor
 
 - Checkpoint 2: Implement and connect SQLite database. Create a 'User' table. Create a 'UserRepository' that supports finding users by their username. Store a few sample users (with username, password, email, etc.) in the database. Ensure that all 6 buttons on the 'Dashboard' are functional and redirects the user to a corresponding page or pages. Familiarize myself with Map and Reduce and consider creating usages for sorting and organizing information with such. Pushed to Checkpoint 3 -- test users from database with login authentifications and implement Spring Security.
 
-- Checkpoint 3: Test signed up users (from database) with login authentification to ensure that users can create a account and login efficiently. Implement Spring Security. Ensure that all 6 buttons on the Dashboard perform their specified actions, ensure there is a overall theme (consistent colors, fonts, etc.), ensure that each page has its own URL, and set the notification system -- alert a user that they have been sent funds.
+- Checkpoint 3: Test signed up users (from database) with login authentification to ensure that users can create a account and login efficiently. Implement Spring Security. Ensure that all 6 buttons on the Dashboard perform their specified actions, ensure there is a overall theme (consistent colors, fonts, etc.), and ensure that each page has a proper URL name.
 
 It is expected to look similar to Venmo or PayPal (if you are familiar with both).
 
