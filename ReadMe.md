@@ -62,7 +62,7 @@ My expectations for each checkpoint, while there will be three checkpoints befor
 
 - Checkpoint 3: Store users in my database after successfully submitting a sign-up form. Test user(s) logging in to ensure that the user(s) exists and can login as expected. Implement Spring Security so the security of user information is secure. Complete the deisgn for each view: Login, Sign Up, Forgot Password, and the six others on the Dashboard. Ensure that each button throughout works and performs a action / redirection. Ensure that the design scheme is themed (consistent colors, word usage, alignmments, etc.). That is all.
 
-The project is expected to look similar to Venmo or PayPal (if you are familiar with both) in terms of word usage and components (e.g. "Send" or "Request" money buttons, etc.).
+The project is expected to look similar to Venmo or PayPal in terms of word usage and components (e.g. "Send" or "Request" money buttons, etc.).
 
 
 
