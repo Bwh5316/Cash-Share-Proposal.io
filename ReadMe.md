@@ -62,9 +62,9 @@ My expectations for each checkpoint, while there will be three checkpoints befor
 
 - Checkpoint 3: Connect SQLite driver and database to Netbeans. Store user(s) in the database after successfully submitting a sign-up form. Test user(s) logging in to ensure that the user(s) exists and can login as expected. Complete the deisgn for each view: Login, Sign Up, Forgot Password, and the six others on the Dashboard. Ensure that each button throughout works and performs a action / redirection. Disable submit button if the user does not enter a "@" sign in the "email" textfield. Ensure that the design scheme is themed (consistent colors, word usage, alignmments, etc.). That is all.
 
-Output
+Final Output
 
-Post-Checkpoint 3 completion, there werea few things stated above that I did not complete. I completed each task stated above except for the following:
+Post-Checkpoint 3 completion, there were a few things stated in the checkpoints that I did not complete. I completed each task specified except for the following:
 - Store user(s) in SQLite database upon submitting a sign-up form
 - Test user(s) logging to ensure that they exist in the database and can be retrieved for login authentification
 - Use Map and Reduce coding to sort / organize user data; this was more of a idea than a actual task for Checkpoint 2.
