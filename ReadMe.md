@@ -58,13 +58,16 @@ My expectations for each checkpoint, while there will be three checkpoints befor
 
 - Checkpoint 1: Create ‘Login’ portal view (Username and Password text fields, submit button, etc.) and construct the layout for the dashboard / homepage. This may also include some working functionality of the buttons such redirection of pages. This may be subject to be completed by Checkpoint 2 based upon potential complications.
 
-- Checkpoint 2: Implement and connect a database, SQLite or MySQL. Create a 'User' table. Create a 'UserRepository' that supports finding users by their username. Store a few sample users (with username, password, email, etc.) in the database. Ensure that all 6 buttons on the 'Dashboard' are functional and redirects the user to a corresponding page or pages. Familiarize myself with Map and Reduce and consider creating usages for sorting and organizing information with such. Pushed to Checkpoint 3 -- test users from database with login authentifications.
+- Checkpoint 2: Implement and connect a database, SQLite. Create a 'User' table. Store a sample user (with username, password, etc.) in the database. Ensure that all 6 buttons on the 'Dashboard' are functional and redirects the user to a corresponding page or pages. Familiarize myself with Map and Reduce and consider creating usages for sorting and organizing information with such. Pushed to Checkpoint 3 -- Test users from database with login authentifications.
 
 - Checkpoint 3: Connect SQLite driver and database to Netbeans. Store user(s) in the database after successfully submitting a sign-up form. Test user(s) logging in to ensure that the user(s) exists and can login as expected. Complete the deisgn for each view: Login, Sign Up, Forgot Password, and the six others on the Dashboard. Ensure that each button throughout works and performs a action / redirection. Disable submit button if the user does not enter a "@" sign in the "email" textfield. Ensure that the design scheme is themed (consistent colors, word usage, alignmments, etc.). That is all.
 
-The project is expected to look similar to Venmo or PayPal in terms of word usage and components (e.g. "Send" or "Request" money buttons, etc.).
+Output
 
-
+Post-Checkpoint 3 completion, there werea few things stated above that I did not complete. I completed each task stated above except for the following:
+- Store user(s) in SQLite database upon submitting a sign-up form
+- Test user(s) logging to ensure that they exist in the database and can be retrieved for login authentification
+- Use Map and Reduce coding to sort / organize user data; this was more of a idea than a actual task for Checkpoint 2.
 
 Justification
 
