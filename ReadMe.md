@@ -58,11 +58,11 @@ My expectations for each checkpoint, while there will be three checkpoints befor
 
 - Checkpoint 1: Create ‘Login’ portal view (Username and Password text fields, submit button, etc.) and construct the layout for the dashboard / homepage. This may also include some working functionality of the buttons such redirection of pages. This may be subject to be completed by Checkpoint 2 based upon potential complications.
 
-- Checkpoint 2: Implement and connect SQLite database. Create a 'User' table. Create a 'UserRepository' that supports finding users by their username. Store a few sample users (with username, password, email, etc.) in the database. Ensure that all 6 buttons on the 'Dashboard' are functional and redirects the user to a corresponding page or pages. Familiarize myself with Map and Reduce and consider creating usages for sorting and organizing information with such. Pushed to Checkpoint 3 -- test users from database with login authentifications and implement Spring Security.
+- Checkpoint 2: Implement and connect a database, SQLite or MySQL. Create a 'User' table. Create a 'UserRepository' that supports finding users by their username. Store a few sample users (with username, password, email, etc.) in the database. Ensure that all 6 buttons on the 'Dashboard' are functional and redirects the user to a corresponding page or pages. Familiarize myself with Map and Reduce and consider creating usages for sorting and organizing information with such. Pushed to Checkpoint 3 -- test users from database with login authentifications and implement Spring Security.
 
-- Checkpoint 3: Test signed up users (from database) with login authentification to ensure that users can create a account and login efficiently. Implement Spring Security. Ensure that all 6 buttons on the Dashboard perform their specified actions, ensure there is a overall theme (consistent colors, fonts, etc.), and ensure that each page has a proper URL name.
+- Checkpoint 3: Store users in database after successfully signing up. Test users logging in to ensure that the users exist and can login efficiently. Implement Spring Security. Complete the deisgn for each view: Login, Sign Up, Forgot Password, and the six others on the Dashboard. Ensure that each button on the dashboard works. Ensure that the design scheme is themed (consistent colors, word usage, alignmments, etc.).
 
-It is expected to look similar to Venmo or PayPal (if you are familiar with both).
+The project is expected to look similar to Venmo or PayPal (if you are familiar with both) in terms of word usage and components (e.g. "Send" or "Request" money buttons, etc.).
 
 
 
