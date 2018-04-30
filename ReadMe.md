@@ -5,19 +5,15 @@ Description
 
 My proposed project idea is to create a money-sharing / retrieving application. The idea is to allow users to send money electronically to a central storage (server) location, similar to PayPal, where another user may retrieve the funds vs sending money from one bank account to the next. First, users will create an account with the following information:
 
-- First Name
-
-- Last Name
-
-- Date of Birth (DOB)
-
-- Gender
-
 - Username
 
 - Password
 
 - Email Address
+
+- First Name
+
+- Last Name
 
 After an account has been created, users will login using only their username and password that they created. Once logged in, the following options will be available for selection:
 
@@ -29,7 +25,7 @@ After an account has been created, users will login using only their username an
 
 - Add Friend - Add a user by their username
 
-- Settings – Edit privacy, notifications, and personal information
+- Settings – Edit personal information
 
 - Log Out - Log out of account
 
@@ -50,7 +46,7 @@ The dashboard / homepage will be displayed after a user successfully signs in. T
 Technology-wise, I will use Spring MVC as I am fairly comfortable with it. I am not too familiar with MySQL but I heard that I could use its database and check when I, for example, submit / add a new user, which is a combination of information. The technologies I EXPECT to use are as follows:
 
 - NetBeans IDE
-- My SQL Workbench
+- My SQL (Database) Workbench 6.3 CE
 
 Schedule
 
@@ -62,11 +58,11 @@ My expectations for each checkpoint, while there will be three checkpoints befor
 
 - Checkpoint 3: Connect SQLite driver and database to Netbeans. Store user(s) in the database after successfully submitting a sign-up form. Test user(s) logging in to ensure that the user(s) exists and can login as expected. Complete the deisgn for each view: Login, Sign Up, Forgot Password, and the six others on the Dashboard. Ensure that each button throughout works and performs a action / redirection. Disable submit button if the user does not enter a "@" sign in the "email" textfield. Ensure that the design scheme is themed (consistent colors, word usage, alignmments, etc.). That is all.
 
-Final Output
+Final
 
-Post-Checkpoint 3 completion, there were a few things stated in the checkpoints that I did not complete. I completed each task specified except for the following:
-- Store user(s) in SQLite database upon submitting a sign-up form
-- Test user(s) logging to ensure that they exist in the database and can be retrieved for login authentification
+At the final stage of the project, I have completed everything that I said I would but there were a few things stated in checkpoint 2 and 3 that I did not complete. I completed each task specified except for the following:
+- Allow users to send money to and request money from each other. 
+- Allow users to edit / update their personal information.
 - Use Map and Reduce coding to sort / organize user data; this was more of a idea than a actual task for Checkpoint 2.
 
 Justification
